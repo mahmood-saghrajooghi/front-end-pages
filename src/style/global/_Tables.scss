@@ -1,0 +1,46 @@
+.custom-table-1 {
+    width: 100%;
+    thead {
+        th {
+            height: 45px;
+            line-height: 45px;
+            background-color: #4d4d4d;
+            padding: 0 .9rem;
+            font-weight: 400;
+            color: #fff;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 13px;
+        }
+    }
+    tbody {
+        tr {
+            td {
+                border:1px solid #ebebeb;
+                padding: 1.5rem 1rem;
+                color: #7e7e7e;
+                text-align: center;
+                height: 72px;
+                font-size: 15px;
+                &.more-details {
+                    padding: 0 !important;
+                    a {
+                        color: inherit;
+                        transition: .2s;
+                        cursor: pointer;
+                        text-decoration: none;
+                    }
+                }
+            }
+            &:hover {
+                td {
+                    &.more-details {
+                        a {
+                            background: #e5e5e5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

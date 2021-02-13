@@ -1,0 +1,37 @@
+.custom-link {
+    padding: 9px 16px;
+    direction: rtl;
+    font-size: 16px;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    color: #333;
+    text-decoration: none !important;
+
+    &:hover {
+        color: #333;
+    }
+}
+
+.custom-link-has-arrow:after {
+    content: "\f053";
+    font-size: 12px;
+    line-height: 24px;
+    width: 18px;
+    text-align: center;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.custom-link-with-icon {
+    font-size: 18px;
+}
