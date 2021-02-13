@@ -3,5 +3,167 @@
 body {
     background: red;
 }
+.one{
+    height:100vh;
+    background:url(/About/1SFW.png);
+    
+    .upper-part{
+        .logo{
+            position:absolute;
+            top:0;
+            text-align:left;
+            width: 100%;
+            padding-left:50px;
+            img{
+                width:250px;
+            }
+        }
+        .content{
+            position: absolute;
+            top:200px;
+            left:400px;
+            width:300px;
+            color:#fff;
+            .btn{
+                padding: 10px 20px;
+                border-radius:12px;
+            }
+        }
+        .images{
+            .phone{
+                img{
+                    position: absolute;
+                    height:95%;
+                    top:40px;
+                    right:200px;
+                }
+            }
+            .ring{
+                img{
+                    position: absolute;
+                    bottom: -20px;
+                    left:50px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+    .wave{
+        background:#fff;
+        height:80px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        &:after{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 15px;
+            background-size: 40px 20px;
+        }
+    }
+}
+.two{
+    width:100%;
+    height:100vh;
+    .boxes{
+        width: 100%;
+        position: relative;
+        left: 0;
+        margin-bottom: 150px;
+        .row{
+            left:0;
+            position: relative;
+            text-align: center;
+            margin-left:0 !important;
+            margin-right:0 !important;
+        }
+    }
+    .image-container{
+        // .phone{
+        //     position: relative;
+        //     img{
+        //         position:absolute;
+        //         width: 27%;
+        //         left:70px;
+        //         z-index: 2;
+        //     }
+        // }
+        // .ring{
+        //     position: relative;
+        //     img{
+        //         position: absolute;
+        //         left: 105px;
+        //         top:-205px;
+        //         width: 35%;
+        //         z-index: 1;
+        //     }
+        // }
+        // .blob{
+        //     position: relative;
+        //     img{
+        //         position: absolute;
+        //         width:42%;
+        //         left:-100px;
+        //     }
+        // }
+    }
+    .text-container{
+        position: relative;
+        color:#fff;
+        width:550px;
+        // h3{
+        //     position: absolute;
+        //     top:150px;
+        //     right: 250px;
+        //     font-size:30px;
+        // }
+        // p{
+        //     position: absolute;
+        //     top:250px;
+        //     right: 250px;
+        //     font-size:18px;
+        // }
+    }
+}
+.three{
+    position: relative;
+    height:100vh;
+    .container{
+        height:70vh;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background:
+        
+    }
+    .image-container{
+        img{
+            position: absolute;
+            width: 50%;
+            z-index: 10;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @import './Responsive';
