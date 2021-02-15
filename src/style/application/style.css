@@ -397,75 +397,54 @@ li {
   text-overflow: ellipsis;
 }
 
-body {
-  background: red;
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+  width: 100%;
+  width: 120px;
+  left: 1rem;
+  top: 1rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.phone-image-container {
+  position: relative;
+  width: 350px;
+}
+
+.phone-image-container .phone-image {
+  position: relative;
+  z-index: 1;
+  width: 100%;
 }
 
 .one {
-  height: 100vh;
-  background: url(/About/1SFW.png);
+  background-image: url(/About/1SFW.png);
+  background-color: #124b7d;
+  position: relative;
+  padding-bottom: 5rem;
 }
 
-.one .upper-part .logo {
+.one .ring {
   position: absolute;
-  top: 0;
-  text-align: left;
-  width: 100%;
-  padding-left: 50px;
-}
-
-.one .upper-part .logo img {
-  width: 250px;
-}
-
-.one .upper-part .content {
-  position: absolute;
-  top: 200px;
-  left: 400px;
-  width: 300px;
-  color: #fff;
-}
-
-.one .upper-part .content .btn {
-  padding: 10px 20px;
-  border-radius: 12px;
-}
-
-.one .upper-part .images .phone img {
-  position: absolute;
-  height: 95%;
-  top: 40px;
-  right: 200px;
-}
-
-.one .upper-part .images .ring img {
-  position: absolute;
-  bottom: -20px;
-  left: 50px;
+  left: 5%;
+  bottom: 10%;
   width: 200px;
 }
 
-.one .wave {
-  background: #fff;
-  height: 80px;
+.one .ring img {
   width: 100%;
-  position: absolute;
-  bottom: 0;
-}
-
-.one .wave:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 15px;
-  background-size: 40px 20px;
 }
 
 .two {
   width: 100%;
-  height: 100vh;
+  padding: 3rem 0;
+  background-color: #f9f9f9;
 }
 
 .two .boxes {
@@ -483,75 +462,27 @@ body {
   margin-right: 0 !important;
 }
 
-.two .image-container .phone {
-  position: relative;
-}
-
-.two .image-container .phone img {
-  position: absolute;
-  width: 27%;
-  left: 70px;
-  z-index: 2;
-}
-
-.two .image-container .ring {
-  position: relative;
-}
-
-.two .image-container .ring img {
-  position: absolute;
-  left: 105px;
-  top: -205px;
-  width: 35%;
-  z-index: 1;
-}
-
-.two .image-container .blob {
-  position: relative;
-}
-
-.two .image-container .blob img {
-  position: absolute;
-  width: 42%;
-  left: -100px;
-}
-
-.two .text-container {
-  position: relative;
-  color: #fff;
-  width: 550px;
-}
-
-.two .text-container h3 {
-  position: absolute;
-  top: 150px;
-  right: 250px;
-  font-size: 30px;
-}
-
-.two .text-container p {
-  position: absolute;
-  top: 250px;
-  right: 250px;
-  font-size: 18px;
-}
-
 .three {
   position: relative;
-  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 3rem 0;
 }
 
-.three .container {
-  height: 70vh;
+.three .splash-image {
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: #fff;
+  width: 600px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-60%, -50%);
+          transform: translate(-60%, -50%);
 }
 
-.three .image-container img {
+.three .ring-image {
   position: absolute;
-  width: 50%;
-  z-index: 10;
+  width: 450px;
+  right: 0;
+  top: 0;
+  -webkit-transform: translate(35%, -48%);
+          transform: translate(35%, -48%);
 }
 /*# sourceMappingURL=style.css.map */
