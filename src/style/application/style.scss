@@ -36,6 +36,9 @@ $button-background: #146ab3;
     position: relative;
     padding-bottom: 5rem;
 
+    button{
+        border-radius: 8px;
+    }
     .ring {
         position: absolute;
         left: 5%;
@@ -89,5 +92,140 @@ $button-background: #146ab3;
         transform: translate(35%, -48%);
     }
 }
+.four{
+    color:#fff;
+    .shape{
+        height:60vh;
+        width: 100%;
+        position: relative;
+        background:$base-color;
+        
+        .text-container{
+            position: absolute;
+            text-align: center;
+            align-items: center;
+            width: 400px;
+            top:25%;
+            right: 35%;
+            line-height:50px;
+        }
+        .image-container{
+            img{
+                position: absolute;
+                width:40%;
+                top:-50%;
+            }
+        }
+    }
+}
+.five{
+    position: relative;
+        .white{
+            position: relative;
+            .text-container{
+                position: absolute;
+                width:350px;
+                left: 20%;
+                top:150px;
+                p{
+                    position: relative;
+                    top:40px;
+                    color:rgba(0, 0, 0,0.75);
+                }
+            }
+            .image-container{
+                position: relative;
+                top:150px;
+                right:15%;
+                width:80%;
+                .phone{
+                    width: 350px;
+                }
+                .ring{
+                    position: absolute;
+                    width: 300px;
+                    bottom: 0;
+                    left:0;
+                }
+            }
+        }
+        .blue{
+            position: relative;
+            background:$base-color;
+            height:30vh;
+            width: 100%;
+            margin-bottom: 100px;
+        }
+}
+.six{
+    width: 100%;
+    position: relative;
+    .shape{
+        position: relative;
+        background:$base-color;
+        width:100%;
+        height:70vh;
+        .image-container{
+            width: 80%;
+            img{
+                width:50%;
+            }
+        }
+        .text-container{
+            position: relative;
+            width: 50%;
+            left:150px;
+            p{
+                position: relative;
+                top:20px;
+                margin-bottom: 80px;
+            }
+            button{
+                border-radius:8px;
+            }
+        }
+    }
+}
+.seven{
+    position: relative;
+    height:123vh;
+    background:$primary;
+    .image-container{
+        width: 350px;
+        position: absolute;
+        left:30%;
+        top:20vh;
+        img{
+            width:100%;
+        }
+    }
+    .text-container{
+        position: absolute;
+        right:40%;
+        top:20vh;
+        color:#fff;
+        p{
+            position: relative;
+            top:30px;
+        }
 
+    }
+}
+.eight{
+    position: relative;
+    height:40vh;
+    background:$primary;
+    .button-container{
+        position: absolute;
+        left:18%;
+        width:350px;
+        justify-content:center;
+        text-align:center;
+        button{
+            margin:5px 3px;
+            padding:10px 30px;
+            border-radius: 8px;
+        }
+    }
+}
 @import './Responsive';

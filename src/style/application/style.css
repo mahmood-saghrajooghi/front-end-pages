@@ -430,6 +430,10 @@ li {
   padding-bottom: 5rem;
 }
 
+.one button {
+  border-radius: 8px;
+}
+
 .one .ring {
   position: absolute;
   left: 5%;
@@ -484,5 +488,168 @@ li {
   top: 0;
   -webkit-transform: translate(35%, -48%);
           transform: translate(35%, -48%);
+}
+
+.four {
+  color: #fff;
+}
+
+.four .shape {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  background: #124b7d;
+}
+
+.four .shape .text-container {
+  position: absolute;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  top: 25%;
+  right: 35%;
+  line-height: 50px;
+}
+
+.four .shape .image-container img {
+  position: absolute;
+  width: 40%;
+  top: -50%;
+}
+
+.five {
+  position: relative;
+}
+
+.five .white {
+  position: relative;
+}
+
+.five .white .text-container {
+  position: absolute;
+  width: 350px;
+  left: 20%;
+  top: 150px;
+}
+
+.five .white .text-container p {
+  position: relative;
+  top: 40px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.five .white .image-container {
+  position: relative;
+  top: 150px;
+  right: 15%;
+  width: 80%;
+}
+
+.five .white .image-container .phone {
+  width: 350px;
+}
+
+.five .white .image-container .ring {
+  position: absolute;
+  width: 300px;
+  bottom: 0;
+  left: 0;
+}
+
+.five .blue {
+  position: relative;
+  background: #124b7d;
+  height: 30vh;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.six {
+  width: 100%;
+  position: relative;
+}
+
+.six .shape {
+  position: relative;
+  background: #124b7d;
+  width: 100%;
+  height: 70vh;
+}
+
+.six .shape .image-container {
+  width: 80%;
+}
+
+.six .shape .image-container img {
+  width: 50%;
+}
+
+.six .shape .text-container {
+  position: relative;
+  width: 50%;
+  left: 150px;
+}
+
+.six .shape .text-container p {
+  position: relative;
+  top: 20px;
+  margin-bottom: 80px;
+}
+
+.six .shape .text-container button {
+  border-radius: 8px;
+}
+
+.seven {
+  position: relative;
+  height: 123vh;
+  background: #0060b4;
+}
+
+.seven .image-container {
+  width: 350px;
+  position: absolute;
+  left: 30%;
+  top: 20vh;
+}
+
+.seven .image-container img {
+  width: 100%;
+}
+
+.seven .text-container {
+  position: absolute;
+  right: 40%;
+  top: 20vh;
+  color: #fff;
+}
+
+.seven .text-container p {
+  position: relative;
+  top: 30px;
+}
+
+.eight {
+  position: relative;
+  height: 40vh;
+  background: #0060b4;
+}
+
+.eight .button-container {
+  position: absolute;
+  left: 18%;
+  width: 350px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.eight .button-container button {
+  margin: 5px 3px;
+  padding: 10px 30px;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=style.css.map */
