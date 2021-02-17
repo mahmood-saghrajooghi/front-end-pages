@@ -398,7 +398,7 @@ li {
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -431,7 +431,8 @@ body {
   background-image: url(/About/1SFW.png);
   background-color: #124b7d;
   position: relative;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
+  overflow: hidden;
 }
 
 .one button {
@@ -441,21 +442,29 @@ body {
 
 .one .ring-image {
   position: absolute;
-  left: 5%;
-  bottom: 10%;
-  width: 200px;
+  left: 70px;
+  bottom: 210px;
+  width: 250px;
 }
 
 .one .wave-image {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -140px;
+}
+
+.one .text {
+  color: #fff;
+}
+
+.one .text h3 {
+  margin-bottom: 1rem;
 }
 
 .two {
   width: 100%;
   padding: 3rem 0;
-  background-color: #f9f9f9;
+  background-color: #eff0f2;
 }
 
 .two .cart img {
@@ -464,8 +473,8 @@ body {
 
 .three {
   position: relative;
-  background-color: #f9f9f9;
-  padding: 3rem 0;
+  background-color: #eff0f2;
+  padding-top: 3rem;
 }
 
 .three .splash-image {
@@ -490,7 +499,7 @@ body {
   position: relative;
   color: #fff;
   height: 60vh;
-  background: #124b7d;
+  background: #0e385d;
   text-align: center;
 }
 
@@ -505,14 +514,26 @@ body {
 
 .five {
   position: relative;
+  background: #0e385d;
+  overflow: hidden;
+  padding: 15rem 0 0;
 }
 
 .five .image-container {
-  width: 260px;
+  width: 300px;
   margin-right: auto;
+  position: relative;
+  left: -50px;
 }
 
 .five .image-container img {
+  width: 100%;
+}
+
+.five .wave-background {
+  position: absolute;
+  top: -130px;
+  left: 0;
   width: 100%;
 }
 
@@ -548,7 +569,7 @@ body {
 
 .seven {
   position: relative;
-  background: #0060b4;
+  background: #0e385d;
 }
 
 .seven .text-container {

@@ -4,9 +4,10 @@ $primary: #0060b4;
 $base-color: #124b7d;
 $secondary-color: #ef3536;
 $button-background: #146ab3;
+$blue-black: #0e385d;
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -39,7 +40,8 @@ body {
     background-image: url(/About/1SFW.png);
     background-color: $base-color;
     position: relative;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
+    overflow: hidden;
 
     button {
         border-radius: 8px;
@@ -48,21 +50,30 @@ body {
 
     .ring-image {
         position: absolute;
-        left: 5%;
-        bottom: 10%;
-        width: 200px;
+        left: 70px;
+        bottom: 210px;
+        width: 250px;
     }
+
     .wave-image {
         width: 100%;
         position: absolute;
-        bottom: 0;
+        bottom: -140px;
+    }
+
+    .text {
+        color: #fff;
+
+        h3 {
+            margin-bottom: 1rem;
+        }
     }
 }
 
 .two {
     width: 100%;
     padding: 3rem 0;
-    background-color: #f9f9f9;
+    background-color: #eff0f2;
 
 
     .cart {
@@ -74,8 +85,8 @@ body {
 
 .three {
     position: relative;
-    background-color: #f9f9f9;
-    padding: 3rem 0;
+    background-color: #eff0f2;
+    padding-top: 3rem;
 
     .splash-image {
         position: absolute;
@@ -98,7 +109,7 @@ body {
     position: relative;
     color: #fff;
     height: 60vh;
-    background: $base-color;
+    background: $blue-black;
     text-align: center;
 
     .flower-image {
@@ -112,15 +123,24 @@ body {
 
 .five {
     position: relative;
+    background: $blue-black;
+    overflow: hidden;
+    padding: 15rem 0 0;
 
     .image-container {
-        width: 260px;
+        width: 300px;
         margin-right: auto;
-        ;
-
+        position: relative;
+        left: -50px;
         img {
             width: 100%;
         }
+    }
+    .wave-background {
+        position: absolute;
+        top: -130px;
+        left: 0;
+        width: 100%;
     }
 }
 
@@ -152,7 +172,7 @@ body {
 
 .seven {
     position: relative;
-    background: $primary;
+    background: $blue-black;
 
     .text-container {
         color: #fff;
@@ -161,6 +181,7 @@ body {
             margin-bottom: 1.5rem;
         }
     }
+
     .download-link {
         display: flex;
         align-items: center;
