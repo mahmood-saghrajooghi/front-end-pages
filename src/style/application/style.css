@@ -397,6 +397,10 @@ li {
   text-overflow: ellipsis;
 }
 
+body {
+  overflow: hidden;
+}
+
 .logo {
   position: absolute;
   top: 0;
@@ -432,17 +436,20 @@ li {
 
 .one button {
   border-radius: 8px;
+  font-size: 16px;
 }
 
-.one .ring {
+.one .ring-image {
   position: absolute;
   left: 5%;
   bottom: 10%;
   width: 200px;
 }
 
-.one .ring img {
+.one .wave-image {
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .two {
@@ -451,19 +458,8 @@ li {
   background-color: #f9f9f9;
 }
 
-.two .boxes {
+.two .cart img {
   width: 100%;
-  position: relative;
-  left: 0;
-  margin-bottom: 150px;
-}
-
-.two .boxes .row {
-  left: 0;
-  position: relative;
-  text-align: center;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
 }
 
 .three {
@@ -491,144 +487,91 @@ li {
 }
 
 .four {
-  color: #fff;
-}
-
-.four .shape {
-  height: 60vh;
-  width: 100%;
   position: relative;
+  color: #fff;
+  height: 60vh;
   background: #124b7d;
-}
-
-.four .shape .text-container {
-  position: absolute;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 400px;
-  top: 25%;
-  right: 35%;
-  line-height: 50px;
 }
 
-.four .shape .image-container img {
+.four .flower-image {
   position: absolute;
-  width: 40%;
-  top: -50%;
+  top: 0;
+  right: 5%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 200px;
 }
 
 .five {
   position: relative;
 }
 
-.five .white {
-  position: relative;
+.five .image-container {
+  width: 260px;
+  margin-right: auto;
 }
 
-.five .white .text-container {
-  position: absolute;
-  width: 350px;
-  left: 20%;
-  top: 150px;
-}
-
-.five .white .text-container p {
-  position: relative;
-  top: 40px;
-  color: rgba(0, 0, 0, 0.75);
-}
-
-.five .white .image-container {
-  position: relative;
-  top: 150px;
-  right: 15%;
-  width: 80%;
-}
-
-.five .white .image-container .phone {
-  width: 350px;
-}
-
-.five .white .image-container .ring {
-  position: absolute;
-  width: 300px;
-  bottom: 0;
-  left: 0;
-}
-
-.five .blue {
-  position: relative;
-  background: #124b7d;
-  height: 30vh;
+.five .image-container img {
   width: 100%;
-  margin-bottom: 100px;
 }
 
 .six {
-  width: 100%;
-  position: relative;
-}
-
-.six .shape {
   position: relative;
   background: #124b7d;
-  width: 100%;
-  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.six .shape .image-container {
-  width: 80%;
-}
-
-.six .shape .image-container img {
+.six .image-container img {
   width: 50%;
 }
 
-.six .shape .text-container {
-  position: relative;
-  width: 50%;
-  left: 150px;
+.six .text-container {
+  color: #fff;
 }
 
-.six .shape .text-container p {
-  position: relative;
-  top: 20px;
-  margin-bottom: 80px;
+.six .text-container h3 {
+  margin-bottom: 1rem;
 }
 
-.six .shape .text-container button {
+.six .text-container button {
   border-radius: 8px;
 }
 
 .seven {
   position: relative;
-  height: 123vh;
   background: #0060b4;
 }
 
-.seven .image-container {
-  width: 350px;
-  position: absolute;
-  left: 30%;
-  top: 20vh;
-}
-
-.seven .image-container img {
-  width: 100%;
-}
-
 .seven .text-container {
-  position: absolute;
-  right: 40%;
-  top: 20vh;
   color: #fff;
 }
 
-.seven .text-container p {
-  position: relative;
-  top: 30px;
+.seven .text-container h3 {
+  margin-bottom: 1.5rem;
+}
+
+.seven .download-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+}
+
+.seven .download-link i {
+  font-size: 24px;
+  margin-left: .5rem;
 }
 
 .eight {
