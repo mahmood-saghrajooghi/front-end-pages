@@ -4,7 +4,8 @@ $primary: #0060b4;
 $base-color: #124b7d;
 $secondary-color: #ef3536;
 $button-background: #146ab3;
-$blue-black: #0e385d;
+$blue-black: #030e2a;
+$blue-background: #152549;
 
 body {
     overflow-x: hidden;
@@ -128,10 +129,11 @@ body {
     padding: 15rem 0 0;
 
     .image-container {
-        width: 300px;
+        width: 250px;
         margin-right: auto;
         position: relative;
         left: -50px;
+        top: -40px;
         img {
             width: 100%;
         }
@@ -146,7 +148,7 @@ body {
 
 .six {
     position: relative;
-    background: $base-color;
+    background: $blue-background;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,6 +188,9 @@ body {
         display: flex;
         align-items: center;
         font-size: 16px;
+        flex: 1;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
 
         i {
             font-size: 24px;
